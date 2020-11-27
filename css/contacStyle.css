@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../pages/html/tech.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Projsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section2 {
+    width: 50%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    font-family: roboto;
+    margin-top: 130px;  
+}
+h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-family:Agency FB;
+    
+    margin-top: 50px; 
+}
+
+
+
+
+
+nav{
+    display: flex;
+    width: 100vw;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+nav ul {
+
+    display:flex;
+    color:white;
+    width: 50%;
+    align-items:center;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+ 
+nav ul li a:hover {
+    color: #2176FF;
+  }
+
+
+  .Projsec3{
+    width: 100vw;
+    height: auto;
+    background-image: url("../pages/html/contact.jpg") ;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .Projsec3 h1{
+      font-weight: 500;
+      font-family: Agency FB;
+      line-height: 70px;
+      font-size: 60px;
+      color: white;
+  }
+
+  .Projsec3 h5{
+    font-weight: 300;
+    font-family: Agency FB;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.contactbutton{
+    text-align: center;
+    outline: 0;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color:  white;
+    color: black;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 230px;
+    height: 40px;
+    letter-spacing: 0.5px;
+}
+#footer{
+    color: white;
+    padding: 37px;
+    background-color:  rgb(37, 39, 37) ;
+    font-family: Agency FB;
+    font-size: 13px;
+    font-weight: 400;
+    
+}

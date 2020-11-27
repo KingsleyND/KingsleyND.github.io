@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.Trainsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(44, 47, 61);
+    
+}
+
+nav ul {
+
+    display:flex;
+    color:white;
+    width: 50%;
+    align-items:center;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+ 
+nav ul li a:hover {
+    color: #2176FF;
+  }
+
+
+  .button{
+    display: flex;
+    border: 1px solid #dbdbdb;
+    background-color:  #FBFAF9;
+    width: 180PX;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .container1 .button  p{
+      color: #333333;
+      font-family: Agency FB ;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 39px;
+      margin-left: 12px;
+    }
+
+      .container2 .button  p{
+        color: #333333;
+        font-family: Agency FB ;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 39px;
+        margin-left: 12px;
+      }
+      .Shopsec{
+          width: 100vw;
+          padding: 70px;
+
+      }
+      .Dropdown{
+          width: 40%;
+          height:auto;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .button button{
+          width: 39px;
+          border: 0;
+          background: #FBFAF9;
+          outline: 0;
+          border-left: 0.4px solid #dbdbdb;
+          cursor: pointer;
+          color: #333333;
+      }
+      .arrow{
+        width: 39px;
+        border: 0;
+        background: #FBFAF9;
+        outline: 0;
+        border: 0.4px solid #dbdbdb;
+        cursor: pointer;
+        color: #333333;
+      }
+      .container3{
+          display: flex;
+      }
+      
+      .button34 button{
+        width: 39px;
+        height: 39px;
+        border: 0;
+        background: #FBFAF9;
+        outline: 0;
+        border: 0.4px solid #dbdbdb;
+        cursor: pointer;
+        color: #333333;
+
+      }
+
+      .Clothes1 img{
+          
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          
+      }
+
+      .Clothes2 img{
+        
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+
+    .Clothes3 img{
+        
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+
+
+
+
+
+
+  #footer{
+    color: white;
+    width: 100vw;
+    padding: 37px;
+    background-color:  rgb(37, 39, 37) ;
+    font-family: Agency FB;
+    font-size: 13px;
+    font-weight: 400;
+  
+
+}
+
+#footer p {
+    margin-left: 40px;
+}
+
+
+

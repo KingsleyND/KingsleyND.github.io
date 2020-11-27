@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.Cartsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+nav{
+    display: flex;
+    width: 100vw;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(44, 47, 61);
+    
+}
+
+nav ul {
+
+    display:flex;
+    color:white;
+    width: 50%;
+    align-items:center;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-family: montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+ 
+nav ul li a:hover {
+    color: #2176FF;
+  }
+
+  .Cartsec .cartt{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      
+  }
+
+
+
+
+  .CartP{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 55px;
+      color: #808080;
+      font-family: roboto;
+
+  }
+
+  .return{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 55px;
+    font-family: Agency FB;
+  }
+  .return i{
+    padding-right: 4px;
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  #footer{
+    color: white;
+    width: 100vw;
+    bottom: 0%;
+    position: fixed;
+    padding: 37px;
+    background-color:  rgb(37, 39, 37) ;
+    font-family: Agency FB;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+#footer p {
+    margin-left: 50px;
+}
